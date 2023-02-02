@@ -9,6 +9,16 @@ a:focus, a:hover {
     color:orange
 }
 
-main h1 {
+header h1 {
+    font-size: 175%;
+    color: blueviolet;
+    text-indent: 30px;
 
 }
+
+header h2{
+    font-size: 130%;
+    color: #700000;
+    text-indent: 30px;
+}
+
