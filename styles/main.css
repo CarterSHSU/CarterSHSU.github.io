@@ -12,6 +12,9 @@ body {
     padding-bottom: 15px;
     padding-right: 1.5em;
     padding-left: 1.5em;
+    border: black, 1px;
+    border-radius: 25px;
+    box-shadow: 5px;
 
 }
 
