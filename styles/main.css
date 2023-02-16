@@ -48,6 +48,8 @@ main h3 {
     margin-top: 3em; margin-bottom: 1.5em; margin-left: 2em; margin-right: 2em;
     border: 5px;
     border-style: double, blue;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 4px red;
     font-size: 105%;
 }
 
