@@ -46,6 +46,8 @@ main {
 
 main h3 {
     margin-top: 3em; margin-bottom: 1.5em; margin-left: 2em; margin-right: 2em;
+    border: 5px;
+    border-style: double, blue;
     font-size: 105%;
 }
 
