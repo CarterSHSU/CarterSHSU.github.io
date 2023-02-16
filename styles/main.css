@@ -4,17 +4,11 @@ body {
     margin-left: 10px;
     width: 1000px;
     background-color: white;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 1.5em;
-    padding-left: 1.5em;
+    margin-top: 15px; margin-bottom: 15px; margin-right: auto; margin-left: auto;
+    padding-top: 15px; padding-bottom: 15px; padding-right: 1.5em; padding-left: 1.5em;
     border: black, 1px;
     border-radius: 25px;
-    box-shadow: 5px;
+    box-shadow: 5px 5px 0 0;
 
 }
 
@@ -51,7 +45,7 @@ main {
 }
 
 main h3 {
-    margin-top: 3em;
+    margin-top: 3em; margin-bottom: 1.5em; margin-left: 2em; margin-right: 2em;
     font-size: 105%;
 }
 
