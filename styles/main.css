@@ -2,6 +2,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     margin-left: 10px;
+    width: 1000px;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
 }
 
 a:focus, a:hover {
@@ -13,6 +18,7 @@ header h1 {
     font-size: 175%;
     color: blueviolet;
     text-indent: 30px;
+    background-image: linear-gradient(bottom, white 0%, #facd8a 100%);
 
 }
 
@@ -47,8 +53,4 @@ main h3 {
 footer p.copyright {
     text-align: center;
     font-size: 80%;
-}
-
-body {
-    background-image: linear-gradient(bottom, white 0%, #facd8a 100%);
 }
