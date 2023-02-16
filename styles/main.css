@@ -4,9 +4,9 @@ body {
     margin-left: 10px;
     width: 1000px;
     background-color: white;
-    margin-top: 15px; margin-bottom: 15px; margin-right: auto; margin-left: auto;
-    padding-top: 15px; padding-bottom: 15px; padding-right: 1.5em; padding-left: 1.5em;
-    border: black, 1px;
+    margin: 15px auto;
+    padding: 15px 1.5em;
+    border: black 1px;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
 
@@ -21,7 +21,7 @@ header h1 {
     font-size: 175%;
     color: blueviolet;
     text-indent: 30px;
-    background-image: linear-gradient(bottom, white 0%, #facd8a 100%);
+    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
 
 }
 
@@ -47,11 +47,15 @@ main {
 main h3 {
     margin-top: 3em; margin-bottom: 1.5em; margin-left: 2em; margin-right: 2em;
     border: 5px;
-    border-style: double, blue;
+    border-style: double blue;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
     font-size: 105%;
     padding-left: 1em; padding-right: 1em; padding-top: 1em; padding-bottom: 1em;
+}
+
+div.contact {
+    
 }
 
 #list{
