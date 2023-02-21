@@ -80,6 +80,10 @@ footer{
     border-top: 2px solid red;
 
 }
+footer p.copyright{
+    text-align: center;
+    font-size: 80%;
+}
 p.fixed{
     width: auto;
     position: fixed;
