@@ -62,9 +62,27 @@ article img {
     margin-bottom: 1em;
 }
 
-artcle p::first-letter{
+article p::first-letter{
     font-size: 3em;
     font-weight: bold;
     font-style: italic;
     color: lightpink;
+}
+
+aside{
+    width: 20%;
+    float: right;
+    background-color: aquamarine;
+    padding-left: 2em;
+}
+footer{
+    clear: both;
+    border-top: 2px solid red;
+
+}
+p.fixed{
+    width: auto;
+    position: fixed;
+    bottom: 35%;
+    right: 0;
 }
