@@ -85,4 +85,6 @@ p.fixed{
     position: fixed;
     bottom: 35%;
     right: 0;
+    border: 3px;
+    background-color: bisque;
 }
