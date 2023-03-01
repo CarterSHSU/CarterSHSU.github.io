@@ -1,3 +1,6 @@
+html{
+    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -10,7 +13,6 @@ body {
     border: black 1px;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
-    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
 
 }
 
