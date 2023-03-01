@@ -43,7 +43,6 @@ header img {
 
 main {
     clear: left;
-    border: 5px dashed blue;
 }
 
 main h3 {
@@ -58,6 +57,7 @@ main h3 {
 
 #list{
     line-height: 1.5em;
+    border: 5x dashed blue;
 }
 
 footer p.copyright {
