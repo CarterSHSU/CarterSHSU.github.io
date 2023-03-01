@@ -63,7 +63,7 @@ main h3 {
 }
 
 
-#list{
+.list{
     line-height: 1.5em;
     margin: 1.5em 2em;
     border: 5px dashed blue;
