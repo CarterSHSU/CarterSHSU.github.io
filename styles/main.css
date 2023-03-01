@@ -10,6 +10,7 @@ body {
     border: black 1px;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
+    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
 
 }
 
@@ -22,7 +23,6 @@ header h1 {
     font-size: 175%;
     color: orange;
     text-indent: 30px;
-    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
 
 }
 
