@@ -57,7 +57,7 @@ main h3 {
     padding: 1em
 }
 
-nav {
+nav main {
     margin: 1.5em 2em;
     border: 5px dashed blue;
     border-radius: 20px;
@@ -68,11 +68,6 @@ nav {
 
 .list{
     line-height: 1.5em;
-    margin: 1.5em 2em;
-    border: 5px dashed blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px orange;
-    padding: 0.5em
 }
 
 footer p.copyright {
