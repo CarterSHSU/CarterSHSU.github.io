@@ -42,19 +42,18 @@ header img {
 
 main {
     clear: left;
+    border: 5px dashed blue;
 }
 
 main h3 {
-    margin-top: 3em 1.5em 2em 2em;
-    border: 5px;
-    border-style: double blue;
+    margin: 3em 1.5em 2em 2em;
+    border: 5px double blue;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px red;
     font-size: 105%;
     padding: 1.5em 1.5em
 }
 
-div contact
 
 #list{
     line-height: 1.5em;
