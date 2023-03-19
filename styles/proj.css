@@ -47,7 +47,7 @@ article{
     width: 70%;
     float: left;
     column-count: 2;
-    column-rule: 2px dotted red;
+    column-rule: 2px dotted blue;
     column-gap: 2em;
     margin-left: 2em;
 }
@@ -72,8 +72,8 @@ article p::first-letter{
 aside{
     width: 20%;
     float: right;
-    background-color: blue;
-    padding-left: 2em;
+    background-color: lightsalmon;
+    padding-left: 20px;
 }
 footer{
     clear: both;
@@ -91,5 +91,5 @@ p.fixed{
     right: 0;
     border: 3px solid blue;
     background-color: orange;
-    padding: 1.5em;
+    padding: 10px;
 }
