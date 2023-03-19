@@ -18,7 +18,7 @@ body {
 a:focus, a:hover {
     font-style: italic;
     color:orange;
-    border: 3px blue dotted solid;
+    border: 3px dotted solid blue;
 }
 
 header h1 {
