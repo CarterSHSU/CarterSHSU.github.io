@@ -1,12 +1,15 @@
+html {
+    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    margin-left: 10px;
-    width: 90%;
+    width: 1000px;
     background-color: white;
     margin: 15px auto;
     padding: 15px 1.5em;
-    border: black 1px;
+    border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
 
@@ -14,19 +17,13 @@ body {
 
 a:focus, a:hover {
     font-style: italic;
-    color:orange;
-    border: 3px blue;
-    border-style: dotted solid;
-
+    color:orange
 }
 
 header h1 {
     font-size: 175%;
-    color: blue;
-    text-indent: 30px;
-    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
-
-}
+    color: orange;
+    text-indent: 30px;}
 
 header h2 {
     font-size: 130%;
