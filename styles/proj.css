@@ -34,12 +34,12 @@ header h2 {
     font-size: 130%;
     color: blue;
     text-indent: 30px;
-    border-top: 2px solid orange
 }
 
 header img {
     float: left;
     margin-left: 2em;
+    border-top: 2px solid orange
 }
 
 .shadow {
