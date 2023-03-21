@@ -39,7 +39,6 @@ header h2 {
 header img {
     float: left;
     margin-left: 2em;
-    border-top: 2px solid orange
 }
 
 .shadow {
@@ -58,6 +57,7 @@ article{
 
 article h3 {
     column-span:all;
+    border-top: 2px solid orange
 }
 
 article img {
