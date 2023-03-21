@@ -17,5 +17,5 @@ aside ol {
 aside ul {
         list-style-type: square;
       }
-#nav_menu ul li a.lastitem { border-right: none; }	
-#nav_menu ul li a.current { color: yellow; }
+nav_menu ul li a.lastitem { border-right: none; }	
+nav_menu ul li a.current { color: yellow; }
