@@ -18,5 +18,5 @@ article{
   padding-top: 1em;
 }
 
-#aside ol {list-style-type: upper-roman;}     
-#aside ul {list-style-type: square;}
+aside ol {list-style-type: upper-roman;}     
+aside ul {list-style-type: square;}
