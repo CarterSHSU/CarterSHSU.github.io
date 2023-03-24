@@ -45,18 +45,6 @@
         margin-left: 2em;
     }
 
-
-    aside
-    {
-        width: 70%;
-        float: left;
-        clear: left;
-        margin-top: 2em;
-        margin-left: 2em;
-   
-    }
-
-
 article p::first-letter {
     font-size: 3em;
     font-weight: bold;
