@@ -36,6 +36,7 @@
 
     article 
     {
+        border-top: 2px solid blue;
         width: 75%;
         float: left;
         clear:left;
