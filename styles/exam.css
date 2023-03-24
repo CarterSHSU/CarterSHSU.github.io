@@ -39,7 +39,7 @@
 
     article 
     {
-        width: 70%;
+        width: 75%;
         float: left;
         clear:left;
         column-count: 3;
@@ -79,7 +79,7 @@ footer p.copyright{
 aside.fixed{
     width: 20%;
     float: right;
-    background-color: lightbluec;
+    background-color: lightblue;
     padding: 0.1em 1em 1em;
 }
 
