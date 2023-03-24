@@ -74,7 +74,7 @@ aside{
     position: fixed;
     float: right;
     background-color: lightblue;
-    padding: 0.1em 1em 1em;
+    padding: 2em;
 }
 
 ol {list-style-type:upper-roman;}
