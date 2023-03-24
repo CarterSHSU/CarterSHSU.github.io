@@ -72,7 +72,6 @@ footer p.copyright{
 aside{
     width: 20%;
     position: fixed;
-    top: 0;
     float: right;
     background-color: lightblue;
     padding: 0.1em 1em 1em;
