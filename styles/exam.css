@@ -11,10 +11,6 @@
     font-weight: bold;
     border-right: 2px solid white;
 
-   
-
-     
-   
 
  }
   #nav_menu ul li a.lastitem {border-right:none;}
@@ -30,6 +26,7 @@
         border-radius:  25px;
         box-shadow: 5px 5px 0 0;
     }
+
 
     img{
         float: left;
@@ -48,6 +45,7 @@
         margin-left: 2em;
     }
 
+
     aside
     {
        
@@ -59,12 +57,15 @@
    
     }
 
+
 article p::first-letter {
     font-size: 3em ;
     font-weight: bold;
     font-style: italic;
     color: lightblue
 }
+
+
 footer{
     clear: both;
     border-top: 2px solid blue;
@@ -75,6 +76,7 @@ footer p.copyright{
     text-align: center;
     font-size: 80%;
 }
+
 aside.fixed{
     width: 20%;
     float: right;
