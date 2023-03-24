@@ -64,7 +64,7 @@ footer p.copyright{
     font-size: 80%;
 }
 
-aside{
+aside.fixed{
     width: 20%;
     position: fixed;
     top: 0;
