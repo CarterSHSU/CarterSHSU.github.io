@@ -71,12 +71,10 @@ footer p.copyright{
 
 aside{
     width: 20%;
-    float: left;
-    position: absolute;
+    float: right;
     background-color: lightblue;
     padding: 2em;
     border: 3px solid blue;
-    top: 0;
 }
 
 ol {list-style-type:upper-roman;}
