@@ -17,8 +17,8 @@ html {
 
 
  }
-  #nav_menu ul li a.lastitem {border-right:none;}
-    #nav_menu ul li a.current { color:blue;}
+#nav_menu ul li a.lastitem {border-right:none;}
+#nav_menu ul li a.current { color:blue;}
     body{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 80%;
