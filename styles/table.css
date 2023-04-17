@@ -47,11 +47,11 @@ html, body {
       padding: 0.7em;  
       vertical-align: middle;
   }
-  table.third thead tr:first-child{     
+  table.third td{     
       border-top: 2px solid orangered;
   }
 
-  table.third thead tr:last-child{     
+  table.third th{     
     border-bottom: 2px solid orangered;
 }
     
