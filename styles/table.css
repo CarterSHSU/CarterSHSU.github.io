@@ -48,7 +48,7 @@ html, body {
       padding: 0.7em;  
       vertical-align: middle;
   }
-  table.third td{     
+  table.third tr{     
       border-top: 2px solid orangered;
   }
 
