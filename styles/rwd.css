@@ -121,6 +121,7 @@ footer {
   font-size: 0.8em;
 }
 
+@media only screen and (max-width: 425px) {
 .menu-button-container {
   display: flex;
 }
@@ -172,4 +173,5 @@ footer {
   border-top: 1px solid #f46b45;
   text-align: center;
   font-size: 0.6em;
+}
 }
