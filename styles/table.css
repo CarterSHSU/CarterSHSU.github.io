@@ -43,7 +43,8 @@ html, body {
   }
   table.third th {
       background-color: orange;
-      border-top: 2px solid orangered
+      border-top: 2px solid orangered;
+      border-bottom: 2px solid orangered;
   }
   table.third th, table.third td {
       padding: 0.7em;  
