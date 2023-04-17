@@ -38,8 +38,6 @@ html, body {
     table.third td:first-child {
         vertical-align: top;
       }
-      
-      /* Display table borders */
       table.third th,
       table.third td {
         border: 1px solid black;
