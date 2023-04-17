@@ -35,3 +35,40 @@ html, body {
         border-bottom: 2px solid purple;
     }
     
+    table.third td:first-child {
+        vertical-align: top;
+      }
+      
+      /* Display table borders */
+      table.third th,
+      table.third td {
+        border: 1px solid black;
+        padding: 8px;
+      }
+      
+      table.third th {
+        text-align: left;
+      }
+      
+      table.third thead tr:first-child {
+        border-top: 2px solid orangered;
+      }
+      
+      table.third tbody tr:last-child {
+        border-bottom: 2px solid orangered;
+      }
+      
+      table.third tbody tr:nth-child(odd) {
+        background-color: #f2f2f2;
+      }
+
+      @media only screen and (max-width: 425px) {
+        th, td {
+            display: block;
+        }
+        thead, td.number {
+            display: none;
+            padding: 0;
+        }    
+    }
+    
