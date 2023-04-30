@@ -97,3 +97,7 @@ button:hover {
 .home-btn:hover {
   background-color: #ddd;
 }
+
+.form-title {
+  text-align: center;
+}
