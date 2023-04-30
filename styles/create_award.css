@@ -3,10 +3,11 @@ body {
   background-color: #f7f7f7;
 }
 
-h1 {
+header h1 {
   text-align: center;
   font-size: 2rem;
   margin-top: 50px;
+  background-color: transparent;
 }
 
 form {
