@@ -61,17 +61,6 @@ input[type="submit"]:hover {
   background-color: #007aff;
 }
 
-button {
-  background-color: #fff;
-  border: 2px solid #000;
-  color: #000;
-  font-size: 16px;
-  padding: 10px 20px;
-  margin-top: 20px;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-}
-
 button:hover {
   color: #fff;
 }
