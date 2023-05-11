@@ -47,7 +47,7 @@ fieldset {
   textarea {
     height: 5em;
     width: 35em;
-    margin-left: 9.5em;
+    margin-left: .5em; /* changed from 9.5em */
   }
   
   #buttons input {
