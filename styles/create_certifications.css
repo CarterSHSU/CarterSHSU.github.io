@@ -16,7 +16,7 @@ body {
 .header h1 {
   font-size: 36px;
   margin-bottom: 5px;
-  color: #2c3e50;
+  color: #e67e22;
 }
 
 .header h2 {
@@ -45,6 +45,7 @@ body {
   padding: 20px;
   background-color: #ffffff;
   border-radius: 8px;
+  border-left: 6px solid #e67e22;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
 }
 
@@ -53,7 +54,7 @@ body {
   font-size: 20px;
   margin-bottom: 15px;
   color: #2c3e50;
-  border-bottom: 2px solid #e0e0e0;
+  border-bottom: 2px solid #e67e22;
   padding-bottom: 5px;
 }
 
@@ -73,4 +74,22 @@ li {
 /* Strong Tags for Emphasis */
 strong {
   color: #1a5276;
+}
+
+/* Back to Home Button */
+.home-button {
+  display: block;
+  width: fit-content;
+  margin: 40px auto 0;
+  padding: 10px 20px;
+  background-color: #e67e22;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #cf711f;
 }
