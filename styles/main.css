@@ -1,83 +1,103 @@
+/* General HTML and Body Styling */
 html {
-    background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
+    background-image: linear-gradient(to bottom, #f7f7f7 0%, #facd8a 100%);
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
-    width: 1000px;
-    background-color: white;
-    margin: 15px auto;
-    padding: 15px 1.5em;
-    border: 1px solid black;
-    border-radius: 25px;
-    box-shadow: 5px 5px 0 0;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    width: 80%;
+    max-width: 1000px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Link Styling */
 a:focus, a:hover {
     font-style: italic;
-    color:orange
+    color: #e67e22;
+    text-decoration: none;
 }
 
+/* Header Styling */
 header h1 {
-    font-size: 175%;
-    color: orange;
+    font-size: 2.5em;
+    color: #e67e22;
+    margin-bottom: 10px;
     text-indent: 30px;
-
 }
 
 header h2 {
-    font-size: 130%;
-    color: blue;
+    font-size: 1.5em;
+    color: #2c3e50;
+    margin-bottom: 20px;
     text-indent: 30px;
 }
 
 header img {
     float: left;
     margin-left: 2em;
+    width: 80px;  /* Adjusted size for better alignment */
+    height: auto;
 }
 
+/* Shadow Effect */
 .shadow {
-    text-shadow: 2px 2px 2px rgb(128, 0, 0);
-
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+/* Main Content Area */
 main {
-    clear: left;
+    clear: both;
+    margin-top: 20px;
 }
 
 main h3 {
-    margin: 3em 2em 1.5em;
-    border: 5px double orange;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px blue;
-    font-size: 105%;
-    padding: 1em
+    margin: 2em 0 1em 0;
+    padding: 1.5em;
+    border: 2px solid #e67e22;
+    border-radius: 10px;
+    background-color: #fafafa;
+    font-size: 1.2em;
+    color: #34495e;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Navigation Styling */
 nav {
-    margin: 1.5em 2em 1.5em 2em;
-    border: 5px dashed blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px orange;
-    padding: 0.5em;
-  }
-
-.list{
-    line-height: 1.5em;
+    margin: 2em 0;
+    padding: 1em;
+    border: 2px dashed #2980b9;
+    border-radius: 10px;
+    background-color: #ecf0f1;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* List Styling */
+.list {
+    line-height: 1.8em;
+    margin-left: 1.5em;
+    color: #2c3e50;
+}
+
+/* Footer Styling */
 footer p.copyright {
     text-align: center;
-    font-size: 80%;
+    font-size: 0.9em;
+    color: #7f8c8d;
+    margin-top: 2em;
 }
 
-.contact{
-    margin: 1.5em 2em 0em 2em;
-    border: 5px dotted blue;
-    border-radius: 20px;
-    box-shadow: 3px 3px 4px 4px orange;
-    padding: 1em;
-
+/* Contact Information Box */
+.contact {
+    margin: 2em 0;
+    padding: 1.5em;
+    border: 2px dotted #2980b9;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
