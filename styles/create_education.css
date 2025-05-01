@@ -63,12 +63,19 @@ h2 {
 /* Coursework and Certifications List Styling */
 ul {
     margin-left: 2em;
+    padding-left: 1.5em;
     color: #34495e;
     line-height: 1.8em;
 }
 
 ul li {
     font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+ul li:hover {
+    color: #e67e22;
+    cursor: pointer;
 }
 
 /* Footer Styling */
@@ -77,4 +84,22 @@ footer p.copyright {
     font-size: 0.9em;
     color: #7f8c8d;
     margin-top: 2em;
+}
+
+/* Back to Home Button Styling */
+.home-button {
+    display: block;
+    width: fit-content;
+    margin: 30px auto 0;
+    padding: 10px 20px;
+    background-color: #e67e22;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #cf711f;
 }
