@@ -97,4 +97,20 @@ textarea:focus {
 .home-btn:hover {
   background-color: #444;
 }
+.home-button {
+  display: block;
+  width: fit-content;
+  margin: 40px auto 0;
+  padding: 10px 20px;
+  background-color: #e67e22;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #cf711f;
+}
 
