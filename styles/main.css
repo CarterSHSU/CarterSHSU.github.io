@@ -1,4 +1,6 @@
-/* General HTML and Body Styling */
+/* ===================
+   Global Styles
+=================== */
 html {
   background-image: linear-gradient(to bottom, #f7f7f7 0%, #facd8a 100%);
 }
@@ -8,77 +10,83 @@ body {
   font-size: 16px;
   width: 80%;
   max-width: 1000px;
-  background-color: #ffffff;
   margin: 20px auto;
   padding: 20px;
+  background-color: #ffffff;
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  body {
-    width: 95%;
-    padding: 10px;
-  }
-
-  header img {
-    float: none;
-    display: block;
-    margin: 0 auto 1em auto;
-  }
-
-  header h1, header h2 {
-    text-align: center;
-    text-indent: 0;
-  }
+/* ===================
+   Header Styles
+=================== */
+header {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-/* Link Styling */
-a:focus, a:hover {
-  font-style: italic;
-  color: #e67e22;
-  text-decoration: none;
+header img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto 15px auto;
 }
 
-/* Header Styling */
 header h1 {
   font-size: 2.5em;
   color: #e67e22;
-  margin-bottom: 10px;
-  text-indent: 30px;
-  text-align: center;
+  margin: 0.2em 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 header h2 {
   font-size: 1.5em;
   color: #2c3e50;
-  margin-bottom: 20px;
-  text-indent: 30px;
+  margin-bottom: 1em;
+}
+
+/* ===================
+   Navigation
+=================== */
+nav {
+  margin: 2em 0;
+  padding: 1em;
+  border: 2px dashed #2980b9;
+  border-radius: 10px;
+  background-color: #ecf0f1;
   text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-header img {
-  float: left;
-  margin-left: 2em;
-  width: 80px;
-  height: auto;
+nav ul {
+  list-style: none;
+  padding: 0;
 }
 
-/* Shadow Effect */
-.shadow {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
 }
 
-/* Main Content Area */
-main {
-  clear: both;
-  margin-top: 20px;
+nav ul li a {
+  color: #2980b9;
+  font-weight: bold;
+  text-decoration: none;
 }
 
+a:focus,
+a:hover {
+  font-style: italic;
+  color: #e67e22;
+  text-decoration: none;
+}
+
+/* ===================
+   Section Headings
+=================== */
 main h3 {
-  margin: 2em 0 1em 0;
+  margin: 2em 0 1em;
   padding: 1.5em;
   border: 2px solid #e67e22;
   border-radius: 10px;
@@ -88,32 +96,18 @@ main h3 {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Navigation Styling */
-nav {
-  margin: 2em 0;
-  padding: 1em;
-  border: 2px dashed #2980b9;
-  border-radius: 10px;
-  background-color: #ecf0f1;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* List Styling */
+/* ===================
+   Lists
+=================== */
 .list {
   line-height: 1.8em;
   margin-left: 1.5em;
   color: #2c3e50;
 }
 
-/* Footer Styling */
-footer p {
-  text-align: center;
-  font-size: 0.9em;
-  color: #7f8c8d;
-  margin-top: 2em;
-}
-
-/* Contact Information Box */
+/* ===================
+   Contact Box
+=================== */
 .contact {
   margin: 2em 0;
   padding: 1.5em;
@@ -123,7 +117,9 @@ footer p {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Back to Home Button Styling */
+/* ===================
+   Button
+=================== */
 .home-button {
   display: inline-block;
   padding: 12px 20px;
@@ -142,4 +138,29 @@ footer p {
 .home-button:hover {
   background-color: #d35400;
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* ===================
+   Footer
+=================== */
+footer p {
+  text-align: center;
+  font-size: 0.9em;
+  color: #7f8c8d;
+  margin-top: 2em;
+}
+
+/* ===================
+   Responsive Design
+=================== */
+@media (max-width: 768px) {
+  body {
+    width: 95%;
+    padding: 10px;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
 }
