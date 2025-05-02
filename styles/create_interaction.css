@@ -1,12 +1,14 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f7f7f7;
+  color: #2c3e50;
 }
 
 h1 {
   text-align: center;
   font-size: 2rem;
   margin-top: 50px;
+  color: #e67e22; /* Matches Education header */
 }
 
 form {
@@ -14,9 +16,10 @@ form {
   max-width: 500px;
   margin: 0 auto;
   padding: 30px;
-  border-radius: 8px;
+  border-radius: 10px;
   background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
 }
 
 .form-control {
@@ -29,6 +32,7 @@ label {
   font-size: 1.1rem;
   font-weight: bold;
   margin-bottom: 5px;
+  color: #2c3e50;
 }
 
 input,
@@ -39,25 +43,27 @@ textarea {
   border: 1px solid #ccc;
   font-size: 1rem;
   outline: none;
+  background-color: #fafafa;
 }
 
 input:focus,
 select:focus,
 textarea:focus {
-  border-color: blue;
+  border-color: #2980b9; /* Education page blue accent */
 }
 
 input[type="submit"] {
-  background-color: blue;
+  background-color: #e67e22; /* Orange button */
   color: #fff;
   border: none;
   padding: 12px 20px;
   border-radius: 5px;
   cursor: pointer;
+  font-weight: bold;
 }
 
 input[type="submit"]:hover {
-  background-color: #007aff;
+  background-color: #cf711f; /* Darker orange */
 }
 
 .home-btn {
@@ -68,7 +74,7 @@ input[type="submit"]:hover {
   font-weight: bold;
   text-align: center;
   text-decoration: none;
-  background-color: #333;
+  background-color: #2980b9; /* Matches Education blue */
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -77,5 +83,5 @@ input[type="submit"]:hover {
 }
 
 .home-btn:hover {
-  background-color: #444;
+  background-color: #2471a3;
 }
