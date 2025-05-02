@@ -24,23 +24,25 @@ a:focus, a:hover {
 }
 
 /* Header Styling */
+header {
+    text-align: center; /* Center the entire header content */
+}
+
 header h1 {
     font-size: 2.5em;
     color: #e67e22;
     margin-bottom: 10px;
-    text-indent: 30px;
 }
 
 header h2 {
     font-size: 1.5em;
     color: #2c3e50;
     margin-bottom: 20px;
-    text-indent: 30px;
 }
 
 header img {
-    float: left;
-    margin-left: 2em;
+    display: block; /* Adjusted to align with text */
+    margin: 0 auto 1em auto; /* Center the image and add margin below it */
     width: 80px;  /* Adjusted size for better alignment */
     height: auto;
 }
